@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<root>
+    <child>
+        <subchild name="example1">Content1</subchild>
+        <subchild name="example2">Content2</subchild>
+    </child>
+</root>
