@@ -10,7 +10,9 @@ import json
 def main():
     # print("hello world")
 
-    projectDirectory = "C:\\DEV\\Mobile_projects\\coreservices"
+    # projectDirectory = "C:\\DEV\\Mobile_projects\\coreservices"
+    projectDirectory = "C:\\DEV\\Mobile_projects\\mobile_backend"
+    
     pomsArray = find_pom_files(projectDirectory)
 
 
