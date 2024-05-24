@@ -25,7 +25,7 @@ def main():
         diagramContent = diagramContent + itemBuilder(pomContent) + "\n"
 
     diagramContent = diagramContent + "```" # bottom
-    FileService.writeFile(diagramContent)
+    FileService.writeFile(diagramContent, "projectDiagram.md")
 
 
 def itemBuilder(pomContent):

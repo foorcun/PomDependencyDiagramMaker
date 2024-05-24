@@ -19,8 +19,8 @@ class FileService:
             return None
         
     @staticmethod
-    def writeFile(data):
-        file_path = 'projectDiagram.md'
+    def writeFile(data, file_path):
+        # file_path = 'projectDiagram.md'
         with open(file_path, 'w') as file:
             file.write(data)
         print(f"Data written to '{file_path}'")
